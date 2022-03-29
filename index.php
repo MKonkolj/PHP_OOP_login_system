@@ -32,9 +32,9 @@
                     <p>Don't have an account yet? Sign up below!</p>
                 </div>
                 <form action="includes/signup.php" method="post">
-                    <input type="text" name="uid" placeholder="Username">
-                    <input type="password" name="pwd" placeholder="Password">
-                    <input type="password" name="pwdrepeat" placeholder="Repeat password">
+                    <input type="text" name="username" placeholder="Username">
+                    <input type="password" name="pass" placeholder="Password">
+                    <input type="password" name="passrepeat" placeholder="Repeat password">
                     <input type="text" name="email" placeholder="Email">
                     <button type="submit" name="submit">SIGN UP</button>
                 </form>
@@ -45,8 +45,8 @@
                     <p>Log in to access the magic!</p>
                 </div>
                 <form action="includes/login.php" method="post">
-                    <input type="text" name="uid" placeholder="Username">
-                    <input type="password" name="pwd" placeholder="Password">
+                    <input type="text" name="username" placeholder="Username">
+                    <input type="password" name="pass" placeholder="Password">
                     <button type="submit" name="submit">LOGIN</button>
                 </form>
             </div>
